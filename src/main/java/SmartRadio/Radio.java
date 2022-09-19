@@ -1,3 +1,5 @@
+package SmartRadio;
+
 public class Radio {
     private int numberRadioStation;
     private int soundVolume;
@@ -18,7 +20,7 @@ public class Radio {
     }
 
     public void setSoundVolume(int newSoundVolume) {
-        if (newSoundVolume <= 0 || newSoundVolume >= 10) {
+        if (newSoundVolume < 0 || newSoundVolume > 10) {
             return;
         }
         this.soundVolume = newSoundVolume;
