@@ -77,18 +77,7 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
 
     }
-    //@Test
-    //public void lowerNegativeValue() {
-    //    Radio rad = new Radio();
-    //    rad.setSoundVolume(10);
-    //    rad.increaseVolume();
-//
-    //    int expected = 0;
-    //    int actual = rad.getSoundVolume();
-    //    Assertions.assertEquals(expected, actual);
-//
-    //}
-
+    
     @Test
     public void shouldVolumeLessZero() {
         Radio rad = new Radio();
